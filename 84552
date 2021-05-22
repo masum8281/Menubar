@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.headermenu {
+  background:#3498db;
+    text-align: center;
+}
+.headermenu ul{
+
+}
+.headermenu ul li{
+  display: inline-block;
+  margin-left:-4px;
+ 
+  
+}
+.headermenu ul li a{
+  padding:10px 10px;
+  text-decoration: none;
+  display: block;
+  color: white;
+  border-right: 1px solid #ddd;
+  
+  
+}
+.headermenu ul li:first-child a {
+  border-left:1px solid #ddd;
+}
+.headermenu ul li:hover > a{
+  background:#341f97;
+}
+/* Drop down */
+
+.headermenu ul li {
+  position: relative;
+}
+.headermenu ul li ul{
+  position: absolute;
+  top:100;
+  left: 0;
+  width: 200px;
+  background:#3498db ;
+  transition:.8s;
+  opacity: 0;
+  visibility: hidden;
+  transform: scaleY(0);
+   transform-origin: top center;
+  
+}
+.headermenu ul li:hover ul{
+ opacity: 1;
+  visibility: visible;
+  transform: scaleY(1);
+  
+}
+.headermenu ul li ul li{
+  display: block;
+  margin-left: 0;
+  border-top: 1px solid #ddd;
+}
+.headermenu ul li ul li a{
+  display: block;
+  border-bottom:1px solid #ddd;
+  
+}
+.headermenu ul ul li:first-child a{
+    border-left:none;
+}
+.headermenu ul li ul li a:hover {
+  
+}
+
+
+/*social*/
+.social{
+  margin-top:100px;
+  
+}
+.social ul{
+  text-align:center;
+  
+  
+}
+.social ul li {
+  display: inline-block;
+  margin-left:-5px;
+  
+}
+.social ul li a{
+  color: #ddd;
+  background:#e67e22;
+  font-size:30px;
+  padding:px;
+  margin-right:7px ;
+  margin-left:5px;
+  height:60px;
+  width:60px;
+  display: inline-block;
+  line-height:60px;
+  border-radius:50% ;
+  
+  
